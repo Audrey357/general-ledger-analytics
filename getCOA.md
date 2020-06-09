@@ -37,53 +37,50 @@
 * **Success Response:**
 
     ```javascript
-      {
-          "accounts":{
-              "1":{
-                  "end_year_num":2100,
-                  "budget1_title":"Board Approved",
-                  "desc_text":"Gross Tuition Fees",
-                  "start_period_num":1,
-                  "budget2_title":"Revised",
-                  "end_period_num":12,
-                  "budget6_title":"Weekly",
-                  "budget4_title":"Quarter Review",
-                  "def_tax_code":"EX",
-                  "type_ind":"I",
-                  "start_year_num":1992,
-                  "budget3_title":"Half Year Reviewed",
-                  "analy_prompt_text":"",
-                  "budget5_title":"Monthly Review",
-                  "acct_code":"02-0110-00-00",
-                  "group_code":"T-RI010"
-              },
-              "2":{
-                  "end_year_num":2100,
-                  "budget1_title":"Board Approved",
-                  "desc_text":"Grant Income",
-                  "start_period_num":1,
-                  "budget2_title":"Revised",
-                  "end_period_num":12,
-                  "budget6_title":"Weekly",
-                  "budget4_title":"Quarter Review",
-                  "def_tax_code":"TS",
-                  "type_ind":"I",
-                  "start_year_num":1992,
-                  "budget3_title":"Half Year Reviewed",
-                  "analy_prompt_text":"",
-                  "budget5_title":"Monthly Review",
-                  "acct_code":"02-0112-00-00",
-                  "group_code":"T-RI010"
-              }
-          },
-          "token":{
-              "date":"2018-10-04",
-              "flex_code":"02",
-              "year":2018,
-              "timestamp":"{ts '2020-03-02 15:17:29'}",
-              "start_num":1
-          }
-      }
+    {
+        "accounts":[
+            {
+                "end_year_num":2099,
+                "rpt7_code":"",
+                "rpt6_desc":"",
+                "rpt4_code":"",
+                "rpt3_desc":"Accumulated Funds & Reserves",
+                "assoc_acct_code":"",
+                "end_period_num":12,
+                "def_tax_code":"AC",
+                "rpt5_desc":"",
+                "type_ind":"E",
+                "rpt8_code":"",
+                "rpt2_desc":"Current",
+                "acct_code":"04-1300-60-30",
+                "group_code":"",
+                "rpt1_code":1234,
+                "rpt9_desc":"",
+                "desc_text":"Stationery - Prep",
+                "start_period_num":1,
+                "rpt7_desc":"",
+                "resp_e_mail":"",
+                "rpt5_code":"",
+                "rpt2_code":"03",
+                "rpt8_desc":"",
+                "start_year_num":2012,
+                "analy_prompt_text":"",
+                "rpt1_desc":"Code 1234",
+                "rpt3_code":"NNN",
+                "rpt4_desc":"",
+                "rpt6_code":"",
+                "rpt9_code":"",
+                "assoc_acct_desc":"",
+                "resp_name":""
+            }
+        ],
+        "token":{
+            "date":"04/10/2019",
+            "flex_code":"04",
+            "timestamp":"{ts '2020-06-10 09:09:43'}",
+            "start_num":1
+        }
+    }
     ```
 
 * **Error Response:**
@@ -148,9 +145,9 @@
 
   ```javascript
     { 
-      "date":"04/10/2018",
+      "date":"04/11/2019",
       "start_num":"1",
-      "flex_code":"02"
+      "flex_code":"04"
     }
   ```
 
